@@ -1,7 +1,7 @@
 <template>
     <header>
-        <div class="cont-70">
-            <div class="header-top container py-2">
+        <div class="header-top">
+            <div class="header-top container py-2 cont-70">
                 <div class="row">
                     <div class="col-6">
                         <i class="fas fa-clock"></i>
@@ -22,9 +22,13 @@
                     </div>
                 </div>
             </div>
-            <div class="header-bottom container">
-                <nav></nav>
-                <div class="jumbotron container"></div>
+        </div>
+        <div class="header-bottom">
+            <div class="header-bottom container cont-70">
+                <nav>
+                    <img src="" alt="">
+                </nav>
+                <div class="jumbotron row"></div>
             </div>
         </div>
     </header>
@@ -38,15 +42,18 @@ export default {
 
 <style lang="scss" scoped>
     header {
-        background-color: #32414e;
         i {
             margin: 0 5px;
         }
         .header-top {
+            background-color: #32414e;
             color: #b3b3b8;
             .social i {
                 margin: 0 15px;
             }
+        }
+        .header-bottom {
+            background-image: url('../assets/img/jumbo.jpg');
         }
     }
 </style>
