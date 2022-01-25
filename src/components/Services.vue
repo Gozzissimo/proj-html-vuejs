@@ -11,7 +11,9 @@
                         <li class="green-tag">quality</li>
                         <li class="green-tag">security</li>
                     </ul>
-                    <a href="#"><button class="green-button">read more</button></a>
+                    <div>
+                        <a href="#"><button class="green-button">read more</button></a>
+                    </div>
                 </div>
                 <div class="col-4 box white-box">
                     <div class="gallery-img">

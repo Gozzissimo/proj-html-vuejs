@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="content col-6">
                     <h3>about the network</h3>
-                    <h2>the company</h2>
+                    <h2><span class="text-center">the</span> company</h2>
                     <p>with all of this expertise and capability comes an unrivalled commitment to customer service</p>
                     <div class="stats row">
                         <div class="col-4 graphic">0%</div>
@@ -73,8 +73,18 @@ export default {
             h2, h4 {
                 color: $whiteFontColor;
             }
+            h2 {
+                margin-top: 20px;
+                span {
+                    background-color: rgba($greenFontColor, 0.1);
+                    display: inline-block;
+                    height: 1.2em;
+                    width: 2.3em;
+                    line-height: 1.2em;
+                }
+            }
             .stats {
-                margin: 1em 0;
+                margin-top: 3em;
             }
         }
     }
