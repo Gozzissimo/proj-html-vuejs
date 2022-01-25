@@ -27,10 +27,10 @@
             <div class="background-opacity py-2">
                 <div class="container cont-70">
                     <nav class="row">
-                        <div class="col-4">
+                        <div class="col-2">
                             <a class="logo-img" href=""><img src="../assets/img/logo.svg" alt=""></a>
                         </div>
-                        <div class="col-8 text-end">
+                        <div class="col-10 text-end">
                             <ul class="list-inline">
                                 <li><a href="#">home</a></li>
                                 <li><a href="#">services</a></li>
@@ -42,7 +42,19 @@
                         </div>
                     </nav>
                     <div class="jumbotron row">
-                        <div></div>
+                        <div class="col-3 offset-7">
+                            <h1 class="jumbo-title">
+                                <span class="highlight">Logistics</span>
+                                that goes further.
+                            </h1>
+                            <p class="jumbo-desc">
+                                For 20 years working with the most innovative in the field of transport
+                            </p>
+                            <div class="jumbo-buttons d-flex">
+                                <a href=""><button class="green-button">get in touch</button></a>
+                                <a href=""><button class="borderless-button">read more</button></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,6 +78,7 @@ export default {
         .header-top {
             background-color: #4d5a65;
             color: #e5ebe5;
+            font-size: 0.9em;
             .social i {
                 margin: 0 15px;
             }
@@ -74,27 +87,50 @@ export default {
             background-image: url('../assets/img/jumbo.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-            height: 500px;
+            background-position: left;
+            height: 600px;
             .background-opacity {
                 background-color: #1211178a;
-                height: 500px;
-                a {
-                    text-decoration: none;
-                    display: block;
-                    text-transform: uppercase;
-                    color: #e5ebe5;
-                    margin: 0 10px;
-                    line-height: 3em;
-                }
-                button {
-                    text-transform: uppercase;
-                }
-                .logo-img {
-                    width: 150px;
-                    img {
-                        width: 100%;
+                height: 600px;
+                nav {
+                    a {
+                        text-decoration: none;
+                        display: block;
+                        text-transform: uppercase;
+                        color: $whiteFontColor;
+                        margin: 0 30px;
+                        line-height: 3em;
+                    }
+                    button {
+                        text-transform: uppercase;
+                    }
+                    .logo-img {
+                        width: 150px;
+                        img {
+                            width: 100%;
+                        }
                     }
                 }
+                .jumbotron {
+                    margin-top: 3em;
+                    .jumbo-title {
+                        font-weight: 800;
+                        font-size: 3.5em;
+                        color: $whiteFontColor;
+                        .highlight {
+                            background: linear-gradient( rgba(255, 255, 255, 0) 40%, $greenFontColor 100%);
+                        }
+                    }
+                    .jumbo-desc {
+                        color: $greyFontColor;
+                        margin: 20px 0;
+                    }
+                    .jumbo-buttons {
+                        a {
+                            margin-right: 20px;
+                        }
+                    }
+                }    
             }
         }
     }
