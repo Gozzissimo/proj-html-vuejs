@@ -1,5 +1,7 @@
 <template>
     <section>
+        <div class="dotted-separator top"></div>
+        <div class="dotted-separator bottom"></div>
         <div class="left-side">
         </div>
         <div class="right-side">
@@ -51,6 +53,22 @@ export default {
 
     section {
         position: relative;
+        .dotted-separator {
+            height: 80px;
+            width: 160px;
+            position: absolute;
+            background-image: radial-gradient(rgba($greenFontColor, 0.2) 30%, transparent 20%);
+            background-size: 20px 20px;
+            transform: translate(-50%);
+            &.top {
+                top: -40px;
+                left: 50%;
+            }
+            &.bottom {
+                bottom: -40px;
+                left: 50%;
+            }
+        }
         .left-side, .right-side {
             height: 100%;
             width: 50%;
