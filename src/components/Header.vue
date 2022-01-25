@@ -93,13 +93,13 @@ export default {
                 background-color: #1211178a;
                 height: 600px;
                 nav {
-                    a {
+                    li a {
                         text-decoration: none;
                         display: block;
                         text-transform: uppercase;
                         color: $whiteFontColor;
-                        margin: 0 30px;
                         line-height: 3em;
+                        margin: 0 20px;
                     }
                     button {
                         text-transform: uppercase;
@@ -107,7 +107,7 @@ export default {
                     .logo-img {
                         width: 150px;
                         img {
-                            width: 100%;
+                            width: 70%;
                         }
                     }
                 }
