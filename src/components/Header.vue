@@ -77,7 +77,7 @@ export default {
         }
         .header-top {
             background-color: #4d5a65;
-            color: #e5ebe5;
+            color: $greyFontColor;
             font-size: 0.9em;
             .social i {
                 margin: 0 15px;
@@ -90,7 +90,7 @@ export default {
             background-position: left;
             height: 600px;
             .background-opacity {
-                background-color: #1211178a;
+                background-color: #12111786;
                 height: 600px;
                 nav {
                     li a {
@@ -124,6 +124,7 @@ export default {
                     .jumbo-desc {
                         color: $greyFontColor;
                         margin: 20px 0;
+                        font-size: 1.2em;
                     }
                     .jumbo-buttons {
                         a {

@@ -32,25 +32,30 @@ ul {
 
 // repeated items
 // green button
-.green-button {
-    background-color: $greenFontColor;
-    color: $whiteFontColor;
-    border: 2px solid $greenFontColor;
+.green-button, .borderless-button  {
     border-radius: 3px;
     padding: 6px 12px;
     line-height: 1.5em;
     text-transform: uppercase;
     width: 150px;
+    border: 2px solid $greenFontColor;
+    color: $whiteFontColor;
+}
+
+.green-button {
+    background-color: $greenFontColor;
 }
 
 .borderless-button {
     background: none;
-    color: $whiteFontColor;
-    border: 2px solid $greenFontColor;
+}
+
+// stylish items
+.green-tag {
     border-radius: 3px;
     padding: 6px 12px;
-    line-height: 1.5em;
-    text-transform: uppercase;
-    width: 150px;
+    text-transform: capitalize;
+    background-color: rgba($color: $greenBgColor, $alpha: 0.3);
+    color: $greenFontColor;
 }
 
