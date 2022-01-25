@@ -52,7 +52,7 @@ export default {
             }
             &:not(:first-child) {
                 background-color: $whiteFontColor;
-                border-radius: 5px;
+                border-radius: 10px;
                 padding: 3em;
             } 
             .green-tag {
@@ -62,6 +62,12 @@ export default {
                 img {
                     width: 100%;
                 }
+            }
+            p {
+                margin: 0;
+            }
+            h4 {
+                margin: 1em 0;
             }
         }
     }
