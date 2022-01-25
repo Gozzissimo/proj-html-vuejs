@@ -9,15 +9,45 @@ html {
     font-family: $fontFamily;
 }
 
-// a {
-//     text-decoration: none;
-// }
+// commons
+a {
+    text-decoration: none;
+}
 
-// ul {
-//     list-style: none;
-// }
+ul {
+    list-style: none;
+}
 
 .cont-70 {
     width: 70%;
     margin: 0 auto;
 }
+
+.list-inline {
+    display: inline-block;
+    li {
+        float: left;
+    }
+}
+
+// repeated items
+// green button
+.green-button {
+    background-color: $greenFontColor;
+    color: $whiteFontColor;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 12px;
+    line-height: 1.5em;
+}
+
+.borderless-button {
+    background: none;
+    color: $whiteFontColor;
+    border: 2px solid $whiteFontColor;
+    border-radius: 3px;
+    padding: 6px 12px;
+    line-height: 1.5em;
+    
+}
+
