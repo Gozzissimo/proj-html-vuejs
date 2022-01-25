@@ -3,14 +3,29 @@
         <div class="left-side">
         </div>
         <div class="right-side">
+            <img src="../assets/img/about-5.jpg" alt="skyscrapers">
         </div>
-        <div class="content container">
+        <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="content col-6">
                     <h3>about the network</h3>
                     <h2>the company</h2>
                     <p>with all of this expertise and capability comes an unrivalled commitment to customer service</p>
-                    <div class="row">
+                    <div class="stats row">
+                        <div class="col-4 graphic">0%</div>
+                        <div class="col-8">
+                            <h4>Leadership</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="stats row">
+                        <div class="col-4 graphic">0%</div>
+                        <div class="col-8">
+                            <h4>Leadership</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="stats row">
                         <div class="col-4 graphic">0%</div>
                         <div class="col-8">
                             <h4>Leadership</h4>
@@ -46,8 +61,21 @@ export default {
             left: 0;
         }
         .right-side {
-            background-image: url('../assets/img/about-5.jpg');
             right: 0;
+            img {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .content {
+            padding-right: 4em;
+            h2, h4 {
+                color: $whiteFontColor;
+            }
+            .stats {
+                margin: 1em 0;
+            }
         }
     }
 </style>

@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="container">
-            <div class="row box-container">
+            <div class="row box-container d-flex">
                 <div class="col-4 box d-flex">
                     <h3>our business areas</h3>
                     <h2>logistics services</h2>
@@ -43,12 +43,17 @@ export default {
 
     section {
         background-color: $lightBgColor;
+        .box-container {
+            justify-content: space-between;
+        }
         .box {
-            width: calc((100% / 3) - 40px);
-            margin: 0 20px;
+            width: calc((100% / 3) - 30px);
             &:first-child {
                 flex-direction: column;
                 justify-content: space-between;
+            }
+            &:nth-child(2) {
+                margin: 0 30px;
             }
             &:not(:first-child) {
                 background-color: $whiteFontColor;
