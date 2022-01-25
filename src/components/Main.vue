@@ -1,16 +1,19 @@
 <template>
     <main>
         <Services />
+        <Company />
     </main>
 </template>
 
 <script>
 import Services from './Services.vue'
+import Company from './Company.vue'
 
 export default {
     name: "Main",
     components: {
         Services,
+        Company,
     },
 }
 </script>

@@ -25,7 +25,7 @@
         </div>
         <div class="header-bottom">
             <div class="background-opacity py-2">
-                <div class="container cont-70">
+                <div class="container">
                     <nav class="row">
                         <div class="col-2">
                             <a class="logo-img" href=""><img src="../assets/img/logo.svg" alt=""></a>
