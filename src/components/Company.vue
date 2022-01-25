@@ -8,27 +8,29 @@
         <div class="container">
             <div class="row">
                 <div class="content col-6">
-                    <h3>about the network</h3>
-                    <h2><span class="text-center">the</span> company</h2>
-                    <p>with all of this expertise and capability comes an unrivalled commitment to customer service</p>
+                    <div class="mb-5">
+                        <h3>about the network</h3>
+                        <h2><span class="text-center">the</span> company</h2>
+                        <p>with all of this expertise and capability comes an unrivalled commitment to customer service</p>
+                    </div>
                     <div class="stats row">
-                        <div class="col-4 graphic">0%</div>
+                        <div class="col-4 graphic">0<span>%</span></div>
                         <div class="col-8">
                             <h4>Leadership</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
                     <div class="stats row">
-                        <div class="col-4 graphic">0%</div>
+                        <div class="col-4 graphic">0<span>%</span></div>
                         <div class="col-8">
-                            <h4>Leadership</h4>
+                            <h4>Pscyhology</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
                     <div class="stats row">
-                        <div class="col-4 graphic">0%</div>
+                        <div class="col-4 graphic">1<span>%</span></div>
                         <div class="col-8">
-                            <h4>Leadership</h4>
+                            <h4>flexibility</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
@@ -84,7 +86,23 @@ export default {
                 }
             }
             .stats {
-                margin-top: 3em;
+                margin-bottom: 2em;
+                .graphic {
+                    background-color: $darkBgColor;
+                    border-radius: 100%;
+                    border: 10px solid rgba($darkGreyBgColor, 0.1);
+                    width: 100px;
+                    height: 100px;
+                    line-height: 75px;
+                    margin-right: 1em;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 2em;
+                    color: $greyFontColor;
+                    span {
+                        font-size: 0.5em;
+                    }
+                }
             }
         }
     }
