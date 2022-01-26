@@ -8,10 +8,10 @@
                     <p>Follow closely and receive content about our company and the news of the current market</p>
                 </div>
                 <div class="right-side col-5 row">
-                    <form>
-                        <input class="col-12" placeholder="Name" type="text" name="newsname" id="newsname">
-                        <input class="col-12" placeholder="Email" type="email" name="newsemail" id="newsemail">
-                        <input class="green-button" type="button" value="SUBSCRIBE">
+                    <form action="#">
+                        <input class="col-12" placeholder="Name" type="text" name="news-name" id="news-name">
+                        <input class="col-12" placeholder="Email" type="email" name="news-email" id="news-email">
+                        <input class="green-button" type="submit" value="subscribe">
                     </form>
                 </div>
             </div>

@@ -37,7 +37,7 @@
                                 <li><a href="#">skills</a></li>
                                 <li><a href="#">partners</a></li>
                                 <li><a href="#">blog</a></li>
-                                <li><a href="#"><button type="button" class="green-button">get in touch</button></a></li>
+                                <li><a href="#contact"><button type="button" class="green-button">get in touch</button></a></li>
                             </ul>
                         </div>
                     </nav>
@@ -51,7 +51,7 @@
                                 For 20 years working with the most innovative in the field of transport
                             </p>
                             <div class="jumbo-buttons d-flex">
-                                <a href=""><button class="green-button">get in touch</button></a>
+                                <a href="#contact"><button class="green-button">get in touch</button></a>
                                 <a href=""><button class="borderless-button">read more</button></a>
                             </div>
                         </div>
