@@ -34,10 +34,10 @@
                         <li>
                             <i class="fas fa-map-marker-alt"></i>Main Avenue, 987
                         </li>
+                    </ul>
                         <a href="#">
                             <button class="borderless-button">view map</button>
                         </a>
-                    </ul>
                 </div>
             </div>
         </div>

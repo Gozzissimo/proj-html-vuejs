@@ -31,6 +31,7 @@ export default {
     section {
         background-image: url('../assets/img/bg-1.jpg');
         background-position: center;
+        background-size: cover;
         .left-side {
             h2 {
                 color: $whiteFontColor;

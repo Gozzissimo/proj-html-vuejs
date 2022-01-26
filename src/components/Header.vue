@@ -28,7 +28,7 @@
                 <div class="container">
                     <nav class="row">
                         <div class="col-2">
-                            <a class="logo-img" href=""><img src="../assets/img/logo.svg" alt=""></a>
+                            <a class="logo-img" href=""><img src="../assets/img/logo.svg" alt="logo"></a>
                         </div>
                         <div class="col-10 text-end">
                             <ul class="list-inline">
