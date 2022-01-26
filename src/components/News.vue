@@ -3,9 +3,9 @@
         <div class="container">
             <div class="row">
                 <div class="left-side col-6">
-                    <h3 class="mb-4">our editorial content</h3>
-                    <h2 class="mb-4">latest <span class="green-bg green">news</span></h2>
-                    <p>Every week we publishcontent about what is best in the business world.</p>
+                    <h3>our editorial content</h3>
+                    <h2 class="my-3">latest <span class="green-bg green">news</span></h2>
+                    <p>Every week we publish content about what is best in the business world.</p>
                 </div>
                 <div class="right-side col-6 d-flex">
                     <button @click="reveal" class="green-button">see all</button>

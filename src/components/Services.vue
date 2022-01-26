@@ -4,7 +4,7 @@
             <div class="row box-container d-flex">
                 <div class="col-4 box d-flex">
                     <h3>our business areas</h3>
-                    <h2>logistics services</h2>
+                    <h2 class="my-3">logistics services</h2>
                     <p>We are leaders in providing logistics services with a set of cutting edge technologies and a team of experienced and renowned professionals</p>
                     <ul class="tags list-inline">
                         <li class="green-tag">tradition</li>

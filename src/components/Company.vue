@@ -12,7 +12,7 @@
                 <div class="content col-6">
                     <div class="mb-5">
                         <h3>about the network</h3>
-                        <h2><span class="text-center green-bg">the</span> company</h2>
+                        <h2 class="my-3"><span class="text-center green-bg">the</span> company</h2>
                         <p>with all of this expertise and capability comes an unrivalled commitment to customer service</p>
                     </div>
                     <div class="stats row">

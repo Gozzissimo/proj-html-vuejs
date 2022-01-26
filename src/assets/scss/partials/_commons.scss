@@ -67,3 +67,11 @@ ul {
     color: $greenFontColor;
 }
 
+input {
+    background-color: rgba($whiteFontColor, 0.4);
+    border: none;
+    border-radius: 3px;
+    height: 2.5em;
+    padding-left: 1em;
+}
+
