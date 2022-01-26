@@ -94,7 +94,16 @@
             </div>
         </div>
         <div class="footer-bottom">
-
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-4">
+                        Enjoy the low price. We are tracking any intention of piracy
+                    </div>
+                    <div class="offset-4 col-4 text-end">
+                        <i class="far fa-copyright"></i> NEXGEN is Proudly Powered by <span>Codings</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </template>
@@ -145,6 +154,15 @@ export default {
                     }
                 }
             }
+        }
+    }
+    .footer-bottom {
+        background-color: $darkBgColor;
+        color: $greyFontColor;
+        height: 50px;
+        padding-top: 1.5em;
+        span {
+            color: $greenFontColor;
         }
     }
 </style>
