@@ -3,6 +3,7 @@
         <Services />
         <Company />
         <Customers />
+        <News />
     </main>
 </template>
 
@@ -10,6 +11,7 @@
 import Services from './Services.vue'
 import Company from './Company.vue'
 import Customers from './Customers.vue'
+import News from './News.vue'
 
 export default {
     name: "Main",
@@ -17,6 +19,7 @@ export default {
         Services,
         Company,
         Customers,
+        News,
     },
 }
 </script>

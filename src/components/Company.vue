@@ -12,7 +12,7 @@
                 <div class="content col-6">
                     <div class="mb-5">
                         <h3>about the network</h3>
-                        <h2><span class="text-center">the</span> company</h2>
+                        <h2><span class="text-center green-bg">the</span> company</h2>
                         <p>with all of this expertise and capability comes an unrivalled commitment to customer service</p>
                     </div>
                     <div class="stats row">
@@ -44,7 +44,7 @@
 
 <script>
 export default {
-    components: "Company",
+    name:"Company",
 }
 </script>
 
@@ -95,13 +95,6 @@ export default {
             }
             h2 {
                 margin-top: 20px;
-                span {
-                    background-color: rgba($greenFontColor, 0.1);
-                    display: inline-block;
-                    height: 1.2em;
-                    width: 2.3em;
-                    line-height: 1.2em;
-                }
             }
             .stats {
                 margin-bottom: 2em;

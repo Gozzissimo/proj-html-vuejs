@@ -35,6 +35,7 @@ ul {
     width: 150px;
     border: 2px solid $greenFontColor;
     color: $whiteFontColor;
+    text-align: center;
 }
 
 .green-button {
@@ -51,6 +52,18 @@ ul {
     padding: 6px 12px;
     text-transform: capitalize;
     background-color: rgba($color: $greenBgColor, $alpha: 0.3);
+    color: $greenFontColor;
+}
+
+.green-bg {
+    background-color: rgba($greenFontColor, 0.2);
+    display: inline-block;
+    padding: 3px 15px;
+    line-height: 1.2em;
+    border-radius: 5px;
+}
+
+.green-bg.green {
     color: $greenFontColor;
 }
 
