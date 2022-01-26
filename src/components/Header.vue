@@ -77,7 +77,7 @@ export default {
         }
         .header-top {
             background-color: $darkGreyBgColor;
-            color: $greyFontColor;
+            color: $whiteFontColor;
             font-size: 0.9em;
             .social i {
                 margin: 0 15px;
