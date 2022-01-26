@@ -17,7 +17,7 @@
                                 <i class="fas fa-map-marker-alt"></i>Main Avenue, 987
                             </li>
                         </ul>
-                        <a href="#">
+                        <a href="#contact">
                             <button class="borderless-button">get in touch</button>
                         </a>
                     </div>
@@ -94,7 +94,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            
+
         </div>
     </footer>
 </template>
