@@ -16,9 +16,15 @@
                         hello@example.com
                     </div>
                     <div class="col-2 text-end social">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-linkedin-in"></i>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -72,6 +78,9 @@ export default {
     @import "../assets/scss/partials/_variables.scss";
 
     header {
+        a {
+            color: $whiteFontColor;
+        }
         i {
             margin: 0 5px;
         }

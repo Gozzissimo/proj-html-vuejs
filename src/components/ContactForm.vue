@@ -35,10 +35,10 @@
                             <i class="fas fa-map-marker-alt"></i>Main Avenue, 987
                         </li>
                     </ul>
-                        <a href="#">
-                            <button class="borderless-button">view map</button>
-                        </a>
+                        <button :class="(!isActive ? 'd-block' : 'd-none')" @click="isActive = true" class="borderless-button">view map</button>
+                        <button :class="(isActive ? 'd-block' : 'd-none')" @click="isActive = false" class="borderless-button">hide map</button>
                 </div>
+                <iframe v-show="isActive" class="mt-5" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11193.622878232492!2d9.1356711!3d45.4616304!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa481aa5be8d54a11!2sBoolean%20SRLS!5e0!3m2!1sit!2sit!4v1643294477575!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </section>
@@ -47,6 +47,12 @@
 <script>
 export default {
     name: "ContactForm",
+
+    data() {
+        return {
+            isActive: false
+        }
+    }
 }
 </script>
 
