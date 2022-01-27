@@ -64,6 +64,7 @@ export default {
             } 
             .green-tag {
                 margin-right: 10px;
+                padding: 6px 12px;
             }
             .gallery-img {
                 img {

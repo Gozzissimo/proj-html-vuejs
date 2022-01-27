@@ -8,7 +8,8 @@
                     <p>Every week we publish content about what is best in the business world.</p>
                 </div>
                 <div class="right-side col-6 d-flex">
-                    <button @click="reveal" class="green-button">see all</button>
+                    <button :class="(!isActive ? 'd-block' : 'd-none')" @click="reveal" class="green-button">see all</button>
+                    <button :class="(isActive ? 'd-block' : 'd-none')" @click="reveal" class="green-button">see less</button>
                 </div>
             </div>
             <div class="row">
